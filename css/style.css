@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1.25rem;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    gap: .9375rem;
+}
+
+.logo{
+    width: 9.375rem;
+}
+
+.profile{
+    height: 100%;
+    width: 6.25rem;
+}
+
+.profile-picture{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    border: 0.2px solid lightgray;
+}
+
